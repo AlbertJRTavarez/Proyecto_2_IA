@@ -1,0 +1,170 @@
+/* style.css */
+/* Variables de colores */
+:root {
+    --primary-color: hwb(162 56% 30%);
+    --secondary-color: #18BC9C;
+    --accent-color: #F39C12;
+  }
+  
+  /* Scroll suave */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin-top: 70px;
+    background-color: #c1c4c8;
+  }
+  
+  /* Menú de navegación */
+  .navbar {
+    background-color: var(--primary-color) !important;
+  }
+  .navbar-nav .nav-link {
+    color: #fff;
+    transition: color 0.3s;
+  }
+  .navbar-nav .nav-link:hover {
+    color: var(--secondary-color);
+  }
+  
+  /* Sección Inicio */
+  #inicio {
+    text-align: center;
+    padding: 50px 15px;
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  #inicio h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  #inicio p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  .banner-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(0.8);
+    margin-bottom: 30px;
+  }
+  .cta-btn {
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    background-color: var(--secondary-color);
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  .cta-btn:hover {
+    background-color: var(--accent-color);
+  }
+  
+  /* Sección Servicios */
+  #servicios {
+    padding: 50px 15px;
+  }
+  #servicios h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--primary-color);
+  }
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Sección Equipo */
+  #equipo {
+    padding: 50px 15px;
+    background-color: #eef2f3;
+  }
+  #equipo h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--primary-color);
+  }
+  .team-member {
+    text-align: center;
+    padding: 15px;
+  }
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+  }
+  
+  /* Sección Contacto */
+  #contacto {
+    padding: 50px 15px;
+  }
+  #contacto h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--primary-color);
+  }
+  .contact-card {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  .contact-card:hover {
+    transform: scale(1.05);
+  }
+  .contact-card i {
+    font-size: 2rem;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+  }
+  .contact-form {
+    margin-top: 30px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 20px 15px;
+  }
+  footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  footer .social-icons a:hover {
+    color: var(--secondary-color);
+  }
+  
+  @media (max-width: 768px) {
+    #inicio h1 {
+      font-size: 2.5rem;
+    }
+    .cta-btn {
+      font-size: 1.2rem;
+      padding: 8px 20px;
+    }
+  }
+  

@@ -1,0 +1,188 @@
+
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air Line - Tienda de Calzados Nike</title>
+  <!-- Bootstrap 5.3.0 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome 6.0 CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Enlace a CSS personalizado -->
+  <link rel="stylesheet" href="script.css">
+</head>
+<body>
+  <!-- Menú fijo superior -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">Air Line</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Sección Inicio -->
+  <section id="inicio">
+    <div class="container">
+      <h1>👟 Air Line - ¡Tu estilo en movimiento! 🚀</h1>
+      <p>Descubre la mejor selección de calzados Nike para cada paso de tu vida.</p>
+      <img src="https://dp6mhagng1yw3.cloudfront.net/entries/10th/41430037-8c35-4930-8e23-2317974c2d03.jpg" alt="Banner Air Line" class="banner-img">
+      <button class="btn cta-btn" onclick="document.getElementById('contacto').scrollIntoView();">¡Compra Ahora!</button>
+    </div>
+  </section>
+  
+  <!-- Sección Servicios -->
+  <section id="servicios">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/831046124692469.6109808384d26.jpg" class="card-img-top" alt="Nike Neon">
+            <div class="card-body">
+              <i class="fas fa-shoe-prints fa-2x mb-3"></i>
+              <h5 class="card-title">Nike Neon</h5>
+              <p class="card-text">Estilo vibrante y moderno para destacar en cada paso.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://cdn.sanity.io/images/c1chvb1i/production/5c9edec16fe52dbb7da5b0c0de6aa11806f0a37b-1100x735.jpg/NIKE-AIR-MAX-95-6.jpg" class="card-img-top" alt="Nike Air Max 95">
+            <div class="card-body">
+              <i class="fas fa-shoe-prints fa-2x mb-3"></i>
+              <h5 class="card-title">Nike Air Max 95</h5>
+              <p class="card-text">Confort y diseño innovador para un rendimiento excepcional.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://cdn.shopify.com/s/files/1/0094/2252/files/NikeLunarForce1WFB14.jpg?54022" class="card-img-top" alt="Nike Lunar Force1">
+            <div class="card-body">
+              <i class="fas fa-shoe-prints fa-2x mb-3"></i>
+              <h5 class="card-title">Nike Lunar Force1</h5>
+              <p class="card-text">Elegancia y potencia en cada pisada.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Sección Equipo -->
+  <section id="equipo">
+    <div class="container">
+      <h2>Equipo</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="team-member">
+            <img src="https://cdn.prod.website-files.com/65489618a9e91669c78068e2/6548e060a387ad070c291907_CV-Ejecutivo-de-ventas-2-scaled.jpeg" alt="Ana López">
+            <h5>Ana López</h5>
+            <p>Ejecutiva de Ventas</p>
+            <p>Especialista en atención al cliente y ventas estratégicas.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="team-member">
+            <img src="https://www.esic.edu/sites/default/files/2021-12/ejecutivos-de-ventas.jpg" alt="Carlos Méndez">
+            <h5>Carlos Méndez</h5>
+            <p>Ejecutivo de Ventas</p>
+            <p>Experto en estrategias de mercado y fidelización de clientes.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="team-member">
+            <img src="https://www.emagister.com/blog/wp-content/uploads/2021/03/GettyImages-1244524447-3.jpg" alt="Laura Gómez">
+            <h5>Laura Gómez</h5>
+            <p>Ejecutiva de Ventas</p>
+            <p>Apasionada por el diseño y la innovación en ventas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Sección Contacto -->
+  <section id="contacto">
+    <div class="container">
+      <h2>Contacto</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="contact-card">
+            <i class="fas fa-phone-alt"></i>
+            <h4>+809-432-2012</h4>
+            <a href="https://wa.me/18094322012" class="btn btn-success mt-3">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <form id="contactForm" class="contact-form">
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Modal de confirmación -->
+  <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="confirmationModalLabel">Confirmación</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          ¡Mensaje enviado exitosamente! 🚀😊
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="social-icons mb-2">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <p>Dirección: Calle Ejemplo 123, Ciudad. Horario: L-V 9am-6pm</p>
+  </footer>
+  
+  <!-- Bootstrap Bundle JS con Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Enlace a JS personalizado -->
+  <script src="script.js"></script>
+</body>
+</html>
